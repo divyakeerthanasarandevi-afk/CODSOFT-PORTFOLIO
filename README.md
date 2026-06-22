@@ -16,10 +16,6 @@ This is a responsive personal portfolio website created using HTML and CSS. It s
 - HTML
 - CSS
 
-## 📂 Project Structure
- index.html,
- style.css
-
 ## 🎯 Learning Outcomes
 - Creating responsive web layouts
 - Designing professional portfolio websites
