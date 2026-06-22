@@ -29,4 +29,4 @@ This is a responsive personal portfolio website created using HTML and CSS. It s
 CodSoft Web Development Internship
 
 ## 📜 Author
-Divyakeerthana S D
+Divya keerthana.S.D
