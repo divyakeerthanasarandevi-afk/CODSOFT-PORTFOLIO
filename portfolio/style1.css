@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background:linear-gradient(-45deg,#f7e7d0,#f5ede3,#e8d3b9,#d8b48a);
+    background-size:400% 400%;
+    animation:bg 15s ease infinite;
+    color:#4b2e20;
+}
+@keyframes bg{
+    0%,100%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+}
+header{
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    background:#4b2e20ee;
+    backdrop-filter:blur(10px);
+}
+.logo{
+    color:#f7d7a8;
+    font-size:26px;
+    font-weight:bold;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:.3s;
+}
+nav a:hover{
+    color:#f7d7a8;
+}
+.user{
+    min-height:65vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    padding:10px 8%;
+}
+.content{
+    flex:1;
+}
+.content h1{
+    font-size:60px;
+}
+.content h3{
+    color:#8b5e3c;
+    margin:10px 0;
+}
+.content p{
+    line-height:1.5;
+}
+.image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #d9b382;
+    box-shadow:0 0 25px rgba(0,0,0,.2);
+}
+.about-box,
+.skill,
+.project,
+.resume-card,
+.contact-card{
+    background:#fff8f0cc;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+    border-bottom-style: solid;
+}
+.about-box:hover,
+.skill:hover,
+.project:hover,
+.resume-card:hover,
+.contact-card:hover{
+    transform:translateY(-5px);
+}
+.section{
+    padding:10px 8%;
+}
+.section h2{
+    text-align:center;
+    margin-bottom:10px;
+}
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:8px;
+}
+.skill{
+    text-align:center;
+    font-weight:bold;
+}
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+.project h3{
+    margin-bottom:10px;
+    color:#8b5e3c;
+}
+.resume-card{
+    max-width:350px;
+    margin:auto;
+    text-align:center;
+}
+.resume-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    text-decoration:none;
+    color:white;
+    background:#8b5e3c;
+    border-radius:25px;
+}
+.contact-card{
+    max-width:500px;
+    margin:auto;
+    text-align:center;
+}
+.contact-card p{
+    margin:5px 0;
+}
+footer{
+    margin-top:10px;
+    padding:5px;
+    text-align:center;
+    color:white;
+    background:#4b2e20;
+}
